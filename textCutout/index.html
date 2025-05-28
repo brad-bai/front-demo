@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: #000;
+        overflow: hidden;
+      }
+      h1 {
+        font-size: 12vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url('./bg.jpg') no-repeat center/cover;
+        background-clip: text;
+        color: transparent;
+        animation: scale 3s forwards;
+      }
+      @keyframes scale {
+        0% {
+          color: transparent;
+          font-size: 36vh;
+        }
+        100% {
+          color: #fff;
+          font-size: 12vh;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BRADSTAFU</h1>
+  </body>
+</html>
